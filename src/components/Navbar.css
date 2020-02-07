@@ -1,6 +1,5 @@
 .navbar{
     border-bottom: solid orange;
-    
 }
 
 .nav-link{
@@ -17,7 +16,7 @@
     background-color: orange;
 }
 img{
-    border-color: orange;
+    opacity: 50;
 
 }
 
