@@ -1,0 +1,24 @@
+.navbar{
+    border-bottom: solid orange;
+    
+}
+
+.nav-link{
+    color: white;
+}
+
+.btn{
+    border: blue;
+    background-color: blue;
+    color: orange; 
+}
+
+.navbar-toggler{
+    background-color: orange;
+}
+img{
+    border-color: orange;
+
+}
+
+
