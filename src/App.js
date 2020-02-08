@@ -12,6 +12,7 @@ import Newpage from "./Pages/Newship";
 import Comppage from "./Pages/Comparison";
 import Choicepage from "./Pages/Choice";
 import Bookpage from "./Pages/Addressbook";
+import Trackingpage from "./Pages/Addressbook";
 
 import {
   BrowserRouter as Router,
@@ -34,6 +35,7 @@ class App extends Component {
           <Route exact path="/Comparison" component={Comppage} />
           <Route exact path="/Choice" component={Choicepage} />
           <Route exact path="/Addressbook" component={Bookpage} />
+          <Route exact path="/Tracking" component={Trackingpage} />
           {/* <Route exact path="/404" component={Notfoundpage} />
           <Redirect to="/404"/> */}
         </Switch>

@@ -8,7 +8,7 @@ import "./index.css";
 const Landingpage = () => {
   return (
     <div>
-      <Jumbotron>
+      <Jumbotron class="index">
         <h1>SHIPT</h1>
       </Jumbotron>
       <h2>SHIPPING SHOPPING MADE EASY!</h2>

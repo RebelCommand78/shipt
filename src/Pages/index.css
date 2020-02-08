@@ -15,7 +15,7 @@
 
 .jumbotron {
   margin-top: 50px;
-    background-image: url(https://github.com/RebelCommand78/shipt/blob/master/public/Jumboimage.jpeg?raw=true);
+  background-image: url(https://github.com/RebelCommand78/shipt/blob/master/public/Jumboimage.jpeg?raw=true);
   background-position: 0% 25%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,18 +25,17 @@
   height: 400px;
 }
 
-h1{
-    font-size: 250px;
-    font-weight: bolder;
-    font-style: italic;
-    
+h1 {
+  font-size: 250px;
+  font-weight: bolder;
+  font-style: italic;
 }
-h2{
-    text-align: center;
-    color: blue;
-    text-shadow: orange 0.1em 0.1em 0.1em;
+h2 {
+  text-align: center;
+  color: blue;
+  text-shadow: orange 0.1em 0.1em 0.1em;
 }
 
-.butts{
+.butts {
   text-align: center;
 }

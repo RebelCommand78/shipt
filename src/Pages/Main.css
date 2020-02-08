@@ -1,0 +1,21 @@
+.rounded {
+  margin-top: 60px;
+  position: relative;
+  text-align: center;
+}
+.bottom-center {
+  color: white;
+  position: absolute;
+  z-index: 2;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: blue;
+  width: 87%;
+  padding: 10px;
+  text-align: center;
+}
+
+.jumbotron{
+    background-image: url(https://farm9.staticflickr.com/8301/7992264231_7c4929692c_z_d.jpg);
+}
