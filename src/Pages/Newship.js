@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "../components/Navbar";
+import Footer from "../components/Footer";
 
 import "./Newship.css";
 
@@ -125,6 +126,7 @@ const Newpage = () => {
           Submit
         </Button>
       </Form>
+      <Footer />
     </div>
   );
 };

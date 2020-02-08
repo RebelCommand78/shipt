@@ -1,6 +1,7 @@
 import React from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import Footer from "../components/Footer";
 import "./Signin.css";
 
 const Signinpage = () => {
@@ -24,6 +25,7 @@ const Signinpage = () => {
         </Form.Group>
         <Button href="http://localhost:3000/Main">Submit</Button>
       </Form>
+      <Footer />
     </div>
   );
 };

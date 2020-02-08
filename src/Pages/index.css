@@ -1,8 +1,16 @@
 #landing {
   margin: 10px;
+  width: 100px;
   /* background-color: orange; */
   color: white;
-  
+  text-shadow: black 0.1em 0.1em 0.1em;
+}
+#demo {
+  margin: 10px;
+  width: 220px;
+  /* background-color: orange; */
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.1em;
 }
 
 .jumbotron {
@@ -23,8 +31,12 @@ h1{
     font-style: italic;
     
 }
-body{
+h2{
     text-align: center;
     color: blue;
-  
+    text-shadow: orange 0.1em 0.1em 0.1em;
+}
+
+.butts{
+  text-align: center;
 }

@@ -7,10 +7,11 @@ class Footer extends React.Component {
   render() {
     return (
       <nav class="navbar fixed-bottom navbar-light bg-warning">
-        <a class="navbar-text">
-          <p>&copy; Shipt 2020-present</p>
-          <p>Created by Martin Stovall</p>
-        </a>
+        <ul class="nav navbar-nav navbar-center">
+            <li>Shipt &copy;</li>
+            <li>Created by Martin Stovall</li>
+            
+        </ul>
       </nav>
     );
   }
