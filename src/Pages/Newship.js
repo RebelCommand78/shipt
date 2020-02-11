@@ -2,7 +2,7 @@ import React from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -13,9 +13,13 @@ const Newpage = () => {
     <div>
       <Header />
       {/* Enter where the package is being shipped from */}
+      
+      <p className="Req">*Required Indicates required field</p>
+
       <Form className="From">
+        <h2 id="Where">Hello. Where are you shipping from?</h2>
         <Form.Group controlId="formGridAddress1">
-          <Form.Label>From Address</Form.Label>
+          <Form.Label>From Address*</Form.Label>
           <Form.Control placeholder="1234 Main St" />
         </Form.Group>
 
@@ -47,13 +51,18 @@ const Newpage = () => {
         <Form.Group id="formGridCheckbox">
           <Form.Check type="checkbox" label="Save this Address" />
         </Form.Group>
-        {/* this button will take you to where you are shipping the package to */}
-        <Button variant="primary" type="submit">
-          Ship To Address
-        </Button>
-      </Form>
 
+        {/* this button will take you to where you are shipping the package to */}
+
+        {/* <Button variant="primary" type="submit">
+          Ship To Address
+        </Button> */}
+      </Form>
+      {/* Enter where the package is being shipped to */}
       <Form className="To">
+
+      <h2 id="Where">Where are you shipping to?</h2>
+      
         <Form.Group controlId="formGridAddress1">
           <Form.Label>To Address</Form.Label>
           <Form.Control placeholder="1234 Main St" />
@@ -90,35 +99,38 @@ const Newpage = () => {
 
         {/* This button will take you to the form to enter the dimensions for the package  */}
 
-        <Button variant="primary" type="submit">
+        {/* <Button variant="primary" type="submit">
           Dimensions
-        </Button>
+        </Button> */}
       </Form>
 
+      {/* Enter the package dimensions */}
+
       <Form className="Dimensions">
-        <Form.Group controlId="Length">
-          <Form.Label>Length</Form.Label>
-          <Form.Control  />
-        </Form.Group>
 
-        <Form.Group as={Col} controlId="Width">
-          <Form.Label>Width</Form.Label>
-          <Form.Control />
-        </Form.Group>
-
+      <h2 id="Where">What are you shipping?</h2>
+        
         <Form.Row>
+          <Form.Group as={Col} controlId="Length">
+            <Form.Label>Length</Form.Label>
+            <Form.Control />
+          </Form.Group>
+
+          <Form.Group as={Col} controlId="Width">
+            <Form.Label>Width</Form.Label>
+            <Form.Control />
+          </Form.Group>
+
           <Form.Group as={Col} controlId="Height">
             <Form.Label>Height</Form.Label>
             <Form.Control />
           </Form.Group>
-
-          <Form.Group as={Col} controlId="Weight">
-            <Form.Label>Weight</Form.Label>
-            <Form.Control />
-          </Form.Group>
         </Form.Row>
 
-        
+        <Form.Group controlId="Weight">
+          <Form.Label>Weight</Form.Label>
+          <Form.Control />
+        </Form.Group>
 
         {/* This button will take you to the form to enter the dimensions for the package  */}
 

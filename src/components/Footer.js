@@ -6,7 +6,7 @@ import './Footer.css'
 class Footer extends React.Component {
   render() {
     return (
-      <nav class="navbar fixed-bottom navbar-light bg-warning">
+      <nav class="navbar sticky-bottom navbar-light bg-warning">
         <ul class="nav navbar-nav navbar-center">
             <li>Shipt &copy;</li>
             <li>Created by Martin Stovall</li>

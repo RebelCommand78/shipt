@@ -27,6 +27,7 @@ class Header extends React.Component {
             <Nav className="mr-auto">
               <Nav.Link href="Newship">New Shipment</Nav.Link>
               <Nav.Link href="addressbook">Address Book</Nav.Link>
+              <Nav.Link href="/">Sign Out</Nav.Link>
               <NavDropdown title="Provider Links" id="basic-nav-dropdown">
                 <NavDropdown.Item
                   href="https://www.dhl.com/en.html/"

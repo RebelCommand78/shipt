@@ -1,7 +1,38 @@
-.To{
-    display: none;
+.Req {
+  font-style: italic;
 }
 
-.Dimensions{
-    display: none;
+.From {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  /* max-width: 700px; */
+  border-bottom: black solid;
+  padding-bottom: 10px;
+  
+}
+
+.To {
+  /* display: none; */
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  /* max-width: 700px; */
+  border-bottom: black solid;
+  padding-bottom: 10px;
+  
+}
+
+.Dimensions {
+  /* display: none; */
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  /* max-width: 700px; */
+  
+}
+
+#Where {
+  text-align: center;
+  color: blue;
 }

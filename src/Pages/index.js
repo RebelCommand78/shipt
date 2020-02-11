@@ -11,7 +11,7 @@ const Landingpage = () => {
       <Jumbotron class="index">
         <h1>SHIPT</h1>
       </Jumbotron>
-      <h2>SHIPPING SHOPPING MADE EASY!</h2>
+      <h2 id="Motto">SHIPPING SHOPPING MADE EASY!</h2>
       <div class="butts">
         <Button id="landing" href="http://localhost:3000/Signin">
           Sign In

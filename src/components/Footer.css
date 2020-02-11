@@ -5,6 +5,7 @@
     text-align: center;
 }
 
-.fixed-bottom{
+.sticky-bottom{
+    margin-top: 20px;
     height: 60px;
 }
